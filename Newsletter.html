@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to Baseball 4 US!</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Newsletterstyle.css"/>
+        
+        
+        
+    </head>
+    
+    <body>
+        <header>All order over $75 will receive free shipping!</header>
+            <h1><a href="Projecthome.html"><img src="bassbal.JPG" class="Baseball"></a>
+                
+                <nav>
+                    
+                    <a href="Projectshop.html">Shop</a> 
+                    <a href="Newsletter.html">Newsletter</a> 
+                    <a href="Projectaboutus.html">About us</a>
+
+                </nav>
+                
+             </h1>
+        
+       
+        <main>
+            
+        <p3 id="demo"></p3>
+            <script>
+                    var d = new Date();
+                    var time = new Date().getHours();
+                    var greeting;
+                    if (time < 12) {
+                     greeting = "Good moring! Today date is " + d + " .";
+                        } else if (time < 20) {
+                        greeting = "Good afternoon! Today date is " + d + " .";
+                        } else {
+                            greeting = "Good evening! Today date is " + d + " .";
+                        }
+                    document.getElementById("demo").innerHTML = greeting;
+            </script>
+            
+            <form action="submitt.html" method="POST" id="signup" novalidate>
+                <h2>Sign up for future sales, exclusive deals, and so much more!</h2>
+                <label for="firstname">First Name:<br><input type="text" name="name"id="firstname" placeholder="Enter your first name" ></label>
+                <span id="firstError"></span>
+                <br>
+                <br>
+                <label for="lastname">Last Name:<br><input type="text" name="name" id="lastname"  placeholder="Enter your last name"></label>
+                <span id="nextError"></span>
+                <br>
+                <br>
+                <label for="emailaddress">Email Address: <br><input type="text" name="email" id="email" placeholder="Enter yor email address"></label>
+                <span id="lastError"></span>
+                <br>
+                <br>
+                <input type="submit" value="Subscribe">
+            </form>
+
+            
+           
+        </main>
+        
+        <footer>
+            <p2>&copy; Copyright 2020, Baseball 4 Us!</p2>
+        </footer>
+        
+    </body>
+    
+    <script src='Newsletter.js'></script>
+</html>
+            

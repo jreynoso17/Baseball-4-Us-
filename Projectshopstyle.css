@@ -1,0 +1,240 @@
+header
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    padding:10px;
+}
+
+
+h2
+{
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+h3
+{
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+
+h4
+{
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    padding-left: 150px;
+}
+
+mark
+{
+    background-color: black;
+    color: white;
+}
+
+
+h1
+{
+    background-color: black;
+    font:sans-serif;
+    overflow: auto;
+    padding-left: 150px
+}
+nav
+{
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+img
+{
+    border: solid;
+    border-color: red darkblue red darkblue;
+}
+
+a:link
+{
+    color:white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:nth-child(1)
+{
+    float:inherit;
+    padding-left: 120px;
+}
+
+a:nth-child(2)
+{
+    padding-left: 30px;
+}
+
+a:nth-child(3)
+{
+    padding-left: 30px;
+}
+
+a:nth-child(4)
+{
+    padding-left: 30px;
+}
+
+h1
+{
+    background-color: black;
+    font:sans-serif;
+    overflow: auto;
+    padding-left: 150px;
+}
+
+img.Baseball
+{
+    width:69mm;
+    float: left;
+    border: solid darkblue;
+}
+
+ul
+{
+    overflow: hidden;
+    list-style: none outside none;
+}
+
+ul:nth-child(1) li
+{
+    margin: auto;
+    text-align: center;
+    float: left;
+    padding-left: 140px;
+    display: block;
+}
+
+ul:nth-child(2) li
+{
+    margin: auto;
+    text-align: center;
+    float: left;
+    padding-left: 145px
+}
+
+ul:nth-child(3) li
+{
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+
+ul:nth-child(2) li:nth-child(2)
+{
+    padding-left: 155px;
+}
+
+ul:nth-child(2) li:nth-child(3)
+{
+    padding-left: 125px;
+}
+
+ul:nth-child(2) li:nth-child(4)
+{
+    padding-left: 265px;
+    padding-right: 100px
+}
+
+ul:nth-child(3) li:nth-child(1)
+{
+    padding-left: 240px;
+    padding-right: 145px;
+}
+
+ul:nth-child(3) li:nth-child(2)
+{
+    padding-left: 200px;
+    padding-right: 145px;
+}
+
+ul:nth-child(3) li:nth-child(3)
+{
+    padding-left: 210px;
+    padding-right: 145px;
+}
+
+ul:nth-child(3) li:nth-child(4)
+{
+    padding-left: 200px;
+}
+
+section:ul:nth-child(2) li:nth-child(4)
+{
+    padding-left: 90px
+}
+
+section:nth-child(5) ul:nth-child(2) li:nth-child(2)
+{
+    padding-left: 55px
+}
+
+section:nth-child(5) ul:nth-child(2) li:nth-child(3)
+{
+    padding-left: 40px
+}
+
+section:nth-child(7) ul:nth-child(2) li:nth-child(2)
+{
+    padding-left: 70px;
+}
+
+section:nth-child(7) ul:nth-child(2) li:nth-child(3)
+{
+    padding-left: 35px;
+}
+
+section:nth-child(7) ul:nth-child(2) li:nth-child(4)
+{
+    padding-left: 45px;
+}
+
+section:nth-child(9) ul:nth-child(2) li:nth-child(1)
+{
+    padding-left: 15px;
+}
+
+section:nth-child(9) ul:nth-child(2) li:nth-child(2)
+{
+    padding-left: 105px;
+}
+
+section:nth-child(9) ul:nth-child(2) li:nth-child(3)
+{
+    padding-left: 100px;
+}
+
+section:nth-child(9) ul:nth-child(2) li:nth-child(4)
+{
+    padding-left: 60px;
+}
+
+ul li
+{
+    
+}
+
+footer
+{
+    
+    position:absolute;
+    width:100%;
+    height:60px; 
+}

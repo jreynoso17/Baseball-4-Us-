@@ -1,0 +1,91 @@
+header
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    overflow: auto;
+    padding: 10px;
+}
+main
+{
+    background-color: white;
+}
+
+h1
+{
+    color: white;
+    background-color: black;
+    overflow: auto;
+    padding-left: 150px;
+}
+
+nav
+{
+    
+    font-size: 30px; 
+    background-color: black;
+    overflow: auto;
+}
+
+img.Baseball
+{
+    width: 69mm;
+    float: left;
+    border: solid darkblue;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style:solid;
+    border-color: red darkblue red darkblue;
+    font-size: 30px
+}
+
+p2
+{
+    font-size: 13px;
+}
+
+a:link
+{
+    color:white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:nth-child(1)
+{
+    padding-left: 120px;
+}
+
+a:nth-child(2)
+{
+    padding-left: 30px;
+}
+
+a:nth-child(3)
+{
+    padding-left: 30px;
+}
+
+a:nth-child(4)
+{
+    padding-left: 20px;
+}
+
+
+footer
+{
+    display: block;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+}
